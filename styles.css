@@ -1,0 +1,50 @@
+.holder {
+  display: grid;
+  width: 600px;
+  height: 200px;
+  border: 4px solid black;
+}
+
+.item1 {
+  background: #ff6f55;
+}
+
+.item5 {
+  background: #ffad27;
+}
+
+.item3 {
+  background: #643394;
+}
+
+.item2 {
+  background: #4c82b5;
+}
+
+.item4 {
+  background: #0f7a14;
+}
+
+.item3, .item2, .item4 {
+  grid-row: 2;
+}
+
+.item4 {
+order: 3;
+} 
+
+.item2 {
+  order: 2;
+}
+
+.item3 {
+ order: 1;
+}
+
+.item:nth-child(1) {
+  background: tomato; 
+}
+
+.item:nth-child(5) {
+  background: orange;
+}
